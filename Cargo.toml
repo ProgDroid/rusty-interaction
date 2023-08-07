@@ -25,9 +25,9 @@ hex = { version = "0.4", optional = true }
 
 # For handler
 
-rustls = { version = "0.18", optional = true } 
-actix = { version = "0.10", optional = true }
-actix-web = { version = "3", features = ["rustls"], optional = true }
+rustls = { version = "0.20", optional = true } 
+actix = { version = "0.13", optional = true }
+actix-web = { version = "4", features = ["rustls"], optional = true }
 actix-rt = { version = "2", optional = true }
 reqwest = { version = "0.10.10", features = ["json"], optional = true }
 
